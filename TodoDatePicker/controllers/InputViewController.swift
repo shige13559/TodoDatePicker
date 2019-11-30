@@ -55,7 +55,7 @@ class InputViewController: UIViewController {
             realm.add(todo)
         }
         
-        navigationController?.popViewController(animated: true)
+        
     
     
     }
@@ -81,14 +81,25 @@ class InputViewController: UIViewController {
             todo?.id = id
             todo?.title = inputTitle
             todo?.createdAt = Date()
+            todo?.datePicker = Date()
             try! realm.write {
                 realm.add(todo!)
             }
         }
         
+        navigationController?.popViewController(animated: true)
+        
     }
     
     
+    
+   
+    
+    @IBAction func datePicker(_ sender: UIDatePicker) {
+        
+        print(sender.date)
+        
+    }
     
     
     
