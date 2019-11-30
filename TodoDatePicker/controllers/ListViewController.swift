@@ -11,13 +11,17 @@ import RealmSwift
 
 class ListViewController: UIViewController {
     
-    
     @IBOutlet weak var tableView: UITableView!
+    
+    var todos: [Todo] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
 
@@ -36,3 +40,28 @@ class ListViewController: UIViewController {
     }
     
 }
+
+extension ListViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return todos.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let todo = todos[indexPath.row]
+        cell.textLabel?.text = todo.title
+        cell.accessoryType = .disclosureIndicator
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+         let value = todos[indexPath.row]
+        
+        performSegue(withIdentifier: "toInput", sender: value)
+        
+    }
+    
+    
+}
+

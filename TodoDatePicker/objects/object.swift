@@ -17,6 +17,9 @@ class Todo: Object{
     @objc dynamic var title: String = ""
     
     //本文
+    @objc dynamic var body: String = ""
+    
+    //作成日
     @objc dynamic var createdAt: Date = Date()
     
     //デートピッカー
