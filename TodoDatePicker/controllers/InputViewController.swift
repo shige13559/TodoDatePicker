@@ -28,12 +28,6 @@ class InputViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        if let t = todo{
-            textField.text = t.title
-        }
-    }
-    
     fileprivate func addNewTask(title: String, body: String){
         //Realmに接続
         let realm = try! Realm()
@@ -55,11 +49,12 @@ class InputViewController: UIViewController {
             realm.add(todo)
         }
         
-        navigationController?.popViewController(animated: true)
+        
     
     
     }
     @IBAction func didClickButton(_ sender: UIButton) {
+        
         
         //入力チェック
         guard let inputTitle = textView.text else{
@@ -70,6 +65,7 @@ class InputViewController: UIViewController {
             return
         }
         
+<<<<<<< HEAD
         let realm = try! Realm()
         if let t = todo{
             try! realm.write {
@@ -81,16 +77,34 @@ class InputViewController: UIViewController {
             todo?.id = id
             todo?.title = inputTitle
             todo?.createdAt = Date()
+            todo?.datePicker = Date()
             try! realm.write {
                 realm.add(todo!)
             }
         }
+=======
+        
+        
+>>>>>>> parent of 79d2370... update完
+        
+        navigationController?.popViewController(animated: true)
+        
+    }
+    
+    
+<<<<<<< HEAD
+    
+   
+    
+    @IBAction func datePicker(_ sender: UIDatePicker) {
+        
+        print(sender.date)
         
     }
     
     
     
-    
-    
+=======
+>>>>>>> parent of 79d2370... update完
 
 }
