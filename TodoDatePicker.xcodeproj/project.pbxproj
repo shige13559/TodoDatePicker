@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B22B9710D2ED14A0E9F2E39D /* Pods_TodoDatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4618E6CFB47716724D6AF4D5 /* Pods_TodoDatePicker.framework */; };
+		B5F9DC7423922D4500751E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DC7323922D4500751E0B /* AppDelegate.swift */; };
+		B5F9DC7623922D4500751E0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DC7523922D4500751E0B /* SceneDelegate.swift */; };
+		B5F9DC7B23922D4500751E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F9DC7923922D4500751E0B /* Main.storyboard */; };
+		B5F9DC7D23922D4800751E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F9DC7C23922D4800751E0B /* Assets.xcassets */; };
+		B5F9DC8023922D4800751E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F9DC7E23922D4800751E0B /* LaunchScreen.storyboard */; };
+		B5F9DC89239277E200751E0B /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DC88239277E200751E0B /* object.swift */; };
+		B5F9DC8C23927A0100751E0B /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DC8B23927A0100751E0B /* InputViewController.swift */; };
+		B5F9DC8E23927A1800751E0B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F9DC8D23927A1800751E0B /* ListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26B7EDA9A71CE17AFC725D44 /* Pods-TodoDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoDatePicker.release.xcconfig"; path = "Target Support Files/Pods-TodoDatePicker/Pods-TodoDatePicker.release.xcconfig"; sourceTree = "<group>"; };
+		4618E6CFB47716724D6AF4D5 /* Pods_TodoDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E41918D396D4439681DA53 /* Pods-TodoDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoDatePicker.debug.xcconfig"; path = "Target Support Files/Pods-TodoDatePicker/Pods-TodoDatePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F9DC7023922D4500751E0B /* TodoDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F9DC7323922D4500751E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F9DC7523922D4500751E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5F9DC7A23922D4500751E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F9DC7C23922D4800751E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F9DC7F23922D4800751E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F9DC8123922D4800751E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F9DC88239277E200751E0B /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
+		B5F9DC8B23927A0100751E0B /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		B5F9DC8D23927A1800751E0B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F9DC6D23922D4500751E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22B9710D2ED14A0E9F2E39D /* Pods_TodoDatePicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E473A45890B0D7BDE9E2AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4618E6CFB47716724D6AF4D5 /* Pods_TodoDatePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD7764434ADB2CE8610AE61C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6E41918D396D4439681DA53 /* Pods-TodoDatePicker.debug.xcconfig */,
+				26B7EDA9A71CE17AFC725D44 /* Pods-TodoDatePicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5F9DC6723922D4500751E0B = {
+			isa = PBXGroup;
+			children = (
+				B5F9DC7223922D4500751E0B /* TodoDatePicker */,
+				B5F9DC7123922D4500751E0B /* Products */,
+				AD7764434ADB2CE8610AE61C /* Pods */,
+				6E473A45890B0D7BDE9E2AA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F9DC7123922D4500751E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9DC7023922D4500751E0B /* TodoDatePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F9DC7223922D4500751E0B /* TodoDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9DC8A239279B100751E0B /* controllers */,
+				B5F9DC87239277A700751E0B /* objects */,
+				B5F9DC7323922D4500751E0B /* AppDelegate.swift */,
+				B5F9DC7523922D4500751E0B /* SceneDelegate.swift */,
+				B5F9DC7923922D4500751E0B /* Main.storyboard */,
+				B5F9DC7C23922D4800751E0B /* Assets.xcassets */,
+				B5F9DC7E23922D4800751E0B /* LaunchScreen.storyboard */,
+				B5F9DC8123922D4800751E0B /* Info.plist */,
+			);
+			path = TodoDatePicker;
+			sourceTree = "<group>";
+		};
+		B5F9DC87239277A700751E0B /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9DC88239277E200751E0B /* object.swift */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		B5F9DC8A239279B100751E0B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9DC8B23927A0100751E0B /* InputViewController.swift */,
+				B5F9DC8D23927A1800751E0B /* ListViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F9DC6F23922D4500751E0B /* TodoDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F9DC8423922D4800751E0B /* Build configuration list for PBXNativeTarget "TodoDatePicker" */;
+			buildPhases = (
+				13EA60880FA884A6E4A0AFD1 /* [CP] Check Pods Manifest.lock */,
+				B5F9DC6C23922D4500751E0B /* Sources */,
+				B5F9DC6D23922D4500751E0B /* Frameworks */,
+				B5F9DC6E23922D4500751E0B /* Resources */,
+				BF2534A36518A29C95486FF0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoDatePicker;
+			productName = TodoDatePicker;
+			productReference = B5F9DC7023922D4500751E0B /* TodoDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F9DC6823922D4500751E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = geshi;
+				TargetAttributes = {
+					B5F9DC6F23922D4500751E0B = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = B5F9DC6B23922D4500751E0B /* Build configuration list for PBXProject "TodoDatePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F9DC6723922D4500751E0B;
+			productRefGroup = B5F9DC7123922D4500751E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F9DC6F23922D4500751E0B /* TodoDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F9DC6E23922D4500751E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9DC8023922D4800751E0B /* LaunchScreen.storyboard in Resources */,
+				B5F9DC7D23922D4800751E0B /* Assets.xcassets in Resources */,
+				B5F9DC7B23922D4500751E0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13EA60880FA884A6E4A0AFD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoDatePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2534A36518A29C95486FF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoDatePicker/Pods-TodoDatePicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodoDatePicker/Pods-TodoDatePicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodoDatePicker/Pods-TodoDatePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F9DC6C23922D4500751E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9DC7423922D4500751E0B /* AppDelegate.swift in Sources */,
+				B5F9DC7623922D4500751E0B /* SceneDelegate.swift in Sources */,
+				B5F9DC89239277E200751E0B /* object.swift in Sources */,
+				B5F9DC8E23927A1800751E0B /* ListViewController.swift in Sources */,
+				B5F9DC8C23927A0100751E0B /* InputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F9DC7923922D4500751E0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F9DC7A23922D4500751E0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F9DC7E23922D4800751E0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F9DC7F23922D4800751E0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F9DC8223922D4800751E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5F9DC8323922D4800751E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F9DC8523922D4800751E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E41918D396D4439681DA53 /* Pods-TodoDatePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYLN77KXTR;
+				INFOPLIST_FILE = TodoDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodoDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F9DC8623922D4800751E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B7EDA9A71CE17AFC725D44 /* Pods-TodoDatePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYLN77KXTR;
+				INFOPLIST_FILE = TodoDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodoDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F9DC6B23922D4500751E0B /* Build configuration list for PBXProject "TodoDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F9DC8223922D4800751E0B /* Debug */,
+				B5F9DC8323922D4800751E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F9DC8423922D4800751E0B /* Build configuration list for PBXNativeTarget "TodoDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F9DC8523922D4800751E0B /* Debug */,
+				B5F9DC8623922D4800751E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F9DC6823922D4500751E0B /* Project object */;
+}
