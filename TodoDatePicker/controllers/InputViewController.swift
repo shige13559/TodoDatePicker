@@ -28,6 +28,12 @@ class InputViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        if let t = todo{
+            textField.text = t.title
+        }
+    }
+    
     fileprivate func addNewTask(title: String, body: String){
         //Realmに接続
         let realm = try! Realm()
@@ -55,7 +61,6 @@ class InputViewController: UIViewController {
     }
     @IBAction func didClickButton(_ sender: UIButton) {
         
-        
         //入力チェック
         guard let inputTitle = textView.text else{
             return
@@ -65,10 +70,26 @@ class InputViewController: UIViewController {
             return
         }
         
-        
-        
+        let realm = try! Realm()
+        if let t = todo{
+            try! realm.write {
+                t.title = inputTitle
+            }
+        }else{
+            todo = Todo()
+            let id = (realm.objects(Todo.self).max(ofProperty: "id") as Int? ?? 0) + 1
+            todo?.id = id
+            todo?.title = inputTitle
+            todo?.createdAt = Date()
+            try! realm.write {
+                realm.add(todo!)
+            }
+        }
         
     }
+    
+    
+    
     
     
 
