@@ -89,10 +89,20 @@ class InputViewController: UIViewController {
         
         navigationController?.popViewController(animated: true)
         
+        navigationController?.popViewController(animated: true)
+        
     }
     
     
 <<<<<<< HEAD
+    
+   
+    
+    @IBAction func datePicker(_ sender: UIDatePicker) {
+        
+        print(sender.date)
+        
+    }
     
    
     
